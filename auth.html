@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="icon" href="./Assets/Icons/egg-solid.ico">
+    <link rel="icon" type="image/svg+xml" href="./Assets/Img/egg-solid.svg">
+    <title>Authorisation</title>
+</head>
+<body>
+    <header class="d-flex">
+        <div class="container d-flex">
+            <a href="#">
+                <img class="nav-img" src="./Assets/Img/mug-hot-solid.svg" alt="">
+            </a>
+            <nav class="d-flex">
+                <div>
+                    <a href="#">Main</a>
+                    <a href="#">Support</a>
+                    <a href="./blog-list.html">Blog</a>
+                    <a href="#">Rules</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div>
+                    <a href="./reg.html">Sign up</a>
+                    <a href="./auth.html">Log in</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container body-container">
+        <div class="auth-contaniner">
+            <form method="get">
+                <div>
+                    <label class="firstName-label d-block mb-10" for="firstname">Firstname</label>
+                    <input class="form-input d-block w-100 mb-10" type="text" id="firstname" name="firstname" placeholder="Firstname">
+                </div>
+                <div>
+                    <label class="pass-label d-block mb-10" for="pass">Password</label>
+                    <input class="form-input d-block w-100 mb-10" type="password" id="pass" name="password" placeholder="Password">
+                </div>
+                <div>
+                    <input class="check-input mb-10" type="checkbox" name="rememberMe" id="remember">
+                    <label class="check-label mb-10" for="remember">Remember me</label>
+                </div>
+                <a class="btn btn-link mb-10 d-block" href="/reset.html">Forgot Password?</a>
+                <button class="btn btn-primary w-100">Log in</button>
+                <a class="btn btn-link d-block" href="./reg.html">Sign up</a>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque cum aperiam, inventore ducimus amet at. Non aperiam aliquid commodi. Voluptatem?</p>
+        </div>
+    </footer>
+</body>
+</html>
