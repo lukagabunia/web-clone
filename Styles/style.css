@@ -134,6 +134,11 @@ footer p{
 }
 
 /* blog page */
+.blog-main-container{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+}
 
 .main-category-item{
     border: 1px solid rgb(233, 228, 228);
@@ -178,10 +183,7 @@ footer p{
 .blog-container{
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-column: 2 / span 3;
     gap: 15px;
 }
-.blog-body{
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
-    grid-column-gap: 15px;
-}
+
