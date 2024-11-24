@@ -1,6 +1,7 @@
 @import url(color.css);
 .card{
-    width: 200px;
+    /* movashoret width radgan gridis columni sheavsos */
+    /* width: 200px; */
     box-shadow: 0px 1px 3px 4px #ccc;
 }
 .img-container{
@@ -51,5 +52,5 @@
 .card-body{
     border: 1px solid black;
     border-top: 0;
-    padding: 10px;
+    padding: 10px 15px;
 }

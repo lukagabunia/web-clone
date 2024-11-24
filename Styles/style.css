@@ -137,13 +137,8 @@ footer p{
 
 .main-category-item{
     border: 1px solid rgb(233, 228, 228);
-    flex-grow: 1;
-    /* gaacentrebs itemebs kontainershi */
     text-align: center;
-    /* ------ */
     padding: 15px 10px;
-    margin: 0 15px;
-    width: 25%;
     text-decoration: none;
     color: black;
 }
@@ -158,21 +153,14 @@ footer p{
     height: 35px;
 }
 
-/* marginebis gasaworeblad marjvena da marcxena linkebs mivwvdit */
-
-.main-category-item:first-child{
-    margin-left: 0;
-}
-.main-category-item:last-child{
-    margin-right: 0;
-}
 .main-categories{
     margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-column-gap: 15px;
 }
 .category-navigation-list{
-    align-self: flex-start;
     border: 1px solid rgb(235, 235, 235);
-    flex-basis: 20%;
     margin: 0;
     padding: 25px 0 25px 40px;
     list-style: none;
@@ -188,6 +176,12 @@ footer p{
 }
 
 .blog-container{
-    flex-grow: 1;
-    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+.blog-body{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
+    grid-column-gap: 15px;
 }
