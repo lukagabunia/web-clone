@@ -1,0 +1,20 @@
+/* tu vwert miyolebit mag shemtxvevashi ar igulisxmeba containershi arsebuli clasi blog-detail aramed pirdapir vexebit container blog-detail - s --miitane mausi da naxav-- */
+.container.blog-detail .blog-img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: fill;
+}
+.container.blog-detail .similar-container h2 {
+  display: grid;
+  grid-column: 1 / 5;
+  text-align: center;
+}
+.container.blog-detail .similar-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.card .fav-icon {
+  width: 15px;
+}
